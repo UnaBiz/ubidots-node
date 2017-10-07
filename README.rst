@@ -52,6 +52,13 @@ Usage
       v.getValues(function (err, data) {
         console.log(data.results);
       });
+      
+      this.setValues([
+        { "variable": "VAR_ID_1", "value":41.2 },
+        { "variable": "VAR_ID_1", "value":88.3 }
+      ], function (err) {
+      });
+      
     });
 
 
